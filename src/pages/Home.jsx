@@ -12,7 +12,10 @@ export default function Home() {
 
     return (
         <Container>
+            <h1 className="my-3" > welcome to your home page ! </h1>
             <h1 className="my-3"> Your Todos , you can see the list of todos that you have created </h1>
+
+
             <Row>
                 <CardGroup todos={todos} />
             </Row>
